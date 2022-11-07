@@ -7,18 +7,22 @@ body{
     width: 40%;
     background-color: black;
     color: white;
-    height: 95vh;
+    height: 92vh;
+}
+
+.bi-spotify{
+    width: 8%;
+    height: 0%;
 }
 
 .ls-title{
     display: flex;
     align-items: baseline;
+    font-size: xx-large;
 }
 
 .main-icons{
-    width: 10%;
     display: flex;
-    justify-content: center;
 }
 
 ul{
@@ -31,37 +35,72 @@ ul{
 
 .right-side{
     width: 65%;
-    background-color: lightgreen;
+    background-image: url("./spotify-clone-imgs/DIO.jpg");
     height: 45vh;
 }
 
 .right-side-text{
-    margin: -3px 0px 0px 0px;
+    color: white;
+}
+
+.options-profile{
+    color: white;
+    height: 16%;
+    display: flex;
+    cursor: pointer;
+    width: 36%;
+}
+
+.options-profile p{
+    border-style: solid;
+    border-radius: 6px;
+    border-color: gray;
+    background-color: black;
 }
 
 .header-hits{
-    display: flex;
-    justify-content: center;
-    width: 46%;
     height: 45vh;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-hits i{
+    color: black;
+    cursor: pointer;
 }
 
 .songs-list{
     justify-content: center;
-    background-color: bisque;
+    background-color: black;
+    background-image: linear-gradient(grey,black);
+    color: white;
     width: 100%;
-    height: 111.5%;
+    height: 104.5%;
+    display: flex;
+    align-items: center;
 }
 
 .songs-list-ul{
     display: flex;
-    align-items: center;
-    margin: 0;
-    width: 25%;
+    list-style-image: url("./spotify-clone-imgs/DIO.jpg");
+}
+
+.songs-list-li{
+    padding: 5.5rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-photo{
+    height: 5rem;
 }
 
 .footer{
-    background-color: aqua;
+    background-color: darkslategrey;
+    color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
