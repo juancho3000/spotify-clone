@@ -37,6 +37,7 @@ ul{
     width: 65%;
     background-image: url("./spotify-clone-imgs/DIO.jpg");
     height: 45vh;
+    flex-direction: column;
 }
 
 .right-side-text{
