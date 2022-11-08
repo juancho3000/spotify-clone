@@ -74,29 +74,51 @@ ul{
 }
 
 .songs-list{
-    justify-content: center;
     background-color: black;
     background-image: linear-gradient(grey,black);
     color: white;
     width: 100%;
     height: 104.5%;
     display: flex;
+    padding: 15px;
+    flex-flow: column wrap;
+}
+
+.icons-list{
+    font-size: 35px;
+}
+
+.subtitle-tags{
+    display: flex;
+    justify-content: space-between;
+    color: lightgray;
+}
+
+.first-song{
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.songs-list-ul{
-    display: flex;
-    list-style-image: url("./spotify-clone-imgs/DIO.jpg");
+.first-song-text{
+    width: 100%;
 }
 
-.songs-list-li{
-    padding: 5.5rem 0rem;
+.second-song{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.third-song{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
 }
 
 .list-photo{
-    height: 5rem;
+    height: 42px;
+    width: 42px;
 }
 
 .footer{
