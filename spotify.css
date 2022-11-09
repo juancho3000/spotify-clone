@@ -19,10 +19,14 @@ body{
     display: flex;
     align-items: baseline;
     font-size: xx-large;
+    padding: 10px;
 }
 
 .main-icons{
     display: flex;
+    flex-flow: column;
+    padding: 10px;
+    gap: 5px;
 }
 
 ul{
@@ -30,7 +34,24 @@ ul{
 }
 
 .playlist{
-    justify-content: center;
+    display: flex;
+    padding: 10px;
+    align-items: baseline;
+    flex-flow: column;
+}
+
+.create-like{
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+    padding: 2px;
+}
+
+.playlist-text{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    width: 22%;
 }
 
 .right-side{
@@ -42,6 +63,10 @@ ul{
 
 .right-side-text{
     color: white;
+    display: flex;
+    flex-flow: column;
+    height: 86%;
+    justify-content: end;
 }
 
 .options-profile{
@@ -98,6 +123,11 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: box-shadow .3s;
+}
+
+.first-song:hover {
+    box-shadow: 0 0 11px lightgray;
 }
 
 .first-song-text{
@@ -108,12 +138,22 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: box-shadow .3s;
+}
+
+.second-song:hover {
+    box-shadow: 0 0 11px lightgray;
 }
 
 .third-song{
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    transition: box-shadow .3s;
+}
+
+.third-song:hover {
+    box-shadow: 0 0 11px lightgray;
 }
 
 .list-photo{
@@ -122,7 +162,7 @@ ul{
 }
 
 .footer{
-    background-color: darkslategrey;
+    background-color: #3d3d3e;
     color: white;
     position: fixed;
     bottom: 0;
@@ -134,4 +174,9 @@ ul{
 .bottom{
     display: flex;
     justify-content: space-around;
+}
+
+.footer-photo{
+    height: 42px;
+    width: 42px;
 }
