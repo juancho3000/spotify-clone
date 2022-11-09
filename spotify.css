@@ -8,6 +8,7 @@ body{
     background-color: black;
     color: white;
     height: 92vh;
+    padding: 10px;
 }
 
 .bi-spotify{
@@ -47,6 +48,11 @@ ul{
     padding: 2px;
 }
 
+.installing{
+    display: flex;
+    padding: 175px 20px 10px 20px;
+}
+
 .playlist-text{
     display: flex;
     position: absolute;
@@ -67,6 +73,12 @@ ul{
     flex-flow: column;
     height: 86%;
     justify-content: end;
+    padding: 10px 10px 5px 20px;
+}
+
+.header-icons{
+    padding: 12px;
+    margin: 8px 0px -11px 20px;
 }
 
 .options-profile{
@@ -79,9 +91,11 @@ ul{
 
 .options-profile p{
     border-style: solid;
-    border-radius: 6px;
+    border-radius: 18px;
     border-color: gray;
     background-color: black;
+    margin: 10px 20px 0px -12px;
+    padding: 5px;
 }
 
 .header-hits{
@@ -91,6 +105,7 @@ ul{
 .header-top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-hits i{
@@ -159,6 +174,8 @@ ul{
 .list-photo{
     height: 42px;
     width: 42px;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 .footer{
@@ -173,7 +190,7 @@ ul{
 
 .bottom{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .footer-photo{
