@@ -4,7 +4,7 @@ body{
 }
 
 .left-side{
-    width: 40%;
+    width: 24%;
     background-color: black;
     color: white;
     height: 92vh;
@@ -61,10 +61,11 @@ ul{
 }
 
 .right-side{
-    width: 65%;
+    width: 76%;
     background-image: url("./spotify-clone-imgs/DIO.jpg");
     height: 45vh;
     flex-direction: column;
+    background-repeat: round;
 }
 
 .right-side-text{
@@ -79,6 +80,7 @@ ul{
 .header-icons{
     padding: 12px;
     margin: 8px 0px -11px 20px;
+    font-size: 125%;
 }
 
 .options-profile{
@@ -191,6 +193,12 @@ ul{
 .bottom{
     display: flex;
     justify-content: space-between;
+}
+
+.bottom-arrows{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-photo{
