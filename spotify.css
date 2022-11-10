@@ -22,6 +22,7 @@ body{
     align-items: baseline;
     font-size: xx-large;
     padding: 10px;
+    cursor: pointer;
 }
 
 .main-icons{
@@ -140,6 +141,9 @@ ul{
 
 .icons-list{
     font-size: 35px;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
 }
 
 .subtitle-tags{
