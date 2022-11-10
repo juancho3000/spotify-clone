@@ -116,6 +116,17 @@ ul{
     cursor: pointer;
 }
 
+.bi-play-fill{
+    background-color: lightgreen;
+    border-radius: 46%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-left: 8px;
+}
+
 .songs-list{
     background-color: black;
     background-image: linear-gradient(grey,black);
